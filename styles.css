@@ -1,0 +1,214 @@
+
+
+body {
+    font-family: Poppins, sans-serif;
+    display: flex;
+    background-color: #f0f0f0;
+    height: 100vh;
+    justify-content: center; 
+    align-items: center;    
+    background: url('https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/462467587_849052617041266_296903684123841930_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGMqFvmAel99vFmaYO4dNwHwbzDQyvNHN7BvMNDK80c3tQR2hmVCphqIhClvAX0_qznYaqOZNOs0mrq9IhA20Lg&_nc_ohc=9LyB2Y22-yYQ7kNvgGKZdJR&_nc_zt=23&_nc_ht=scontent.fmnl9-3.fna&_nc_gid=AXEdBahDrdwxJkAaDQfK-65&oh=03_Q7cD1QFGwi2fnH67Hnn5tB41rIyNYvmWQ3BWtYKK2vNyCjewVA&oe=67378E18') no-repeat center center fixed;
+    background-size: cover;
+}
+.header {
+    background-color: #2f673a; 
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.logo span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.icon{
+    position: relative;
+}
+
+.icon i {
+    font-size: 25px;
+    color: #ffffff;
+    margin-right: 30px;
+    position: relative;
+}
+.notification-dot {
+    position: absolute;
+    top: -5px;
+    right: 22px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1;
+}
+.user {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.user img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin-right: 15px;
+    image-rendering: auto;
+    object-fit: cover;
+}
+.user span {
+    font-size: 14px;
+    margin-right: 20px;
+    color: white;
+}
+.logout-button {
+background: none; 
+  border: none; 
+  cursor: pointer;
+  text-decoration: none;
+}
+.logout-button, i{
+    margin-right: 70px;
+    font-size: 20px;
+    color: #e7e7e7;
+}
+
+
+.content .box {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.303); 
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    padding: 30px;
+    overflow-x:auto;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+table th,td {
+    padding: 12px 15px; 
+    text-align: left;
+    vertical-align: middle;
+}
+table td{
+    text-align: center;
+}
+table th{
+    text-align: center;
+}
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 450px;
+    position: relative;
+    
+}
+.login-container img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px);
+    border-radius: 50%;
+}
+.login-container h2 {
+    margin: 60px 0 20px;
+    font-size: 30px;
+    color: #333;
+}
+.login-container p {
+    margin-bottom: 35px;
+    color: #666;
+    font-size: small;
+}
+.login-container .input-group {
+    margin-bottom: 40px;
+    position: relative;
+}
+.login-container .input-group input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    padding-left: 35px;
+}
+.login-container .input-group i{
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #272525;
+}
+.login-container button {
+    width: 30%;
+    padding: 10px;
+    background: #2f673a;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.login-container button:hover {
+    background: #45a049;
+}
+.login-container .signup-link {
+    margin-top: 20px;
+    color: #666;
+    margin-bottom: 18px;
+}
+.login-container .signup-link a {
+    color: #38b6ff;
+    text-decoration: none;
+}
+.login-container .signup-link a:hover {
+    text-decoration: underline;
+}
+.login-container .divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #2e2d2d;
+}
+
+
+
+
